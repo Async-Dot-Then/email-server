@@ -1,0 +1,28 @@
+{
+  "name": "email-server",
+  "version": "1.0.0",
+  "description": "back-end for routing emails",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Async-Dot-Then/email-server.git"
+  },
+  "author": "Madison Stehle & Randee Orion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Async-Dot-Then/email-server/issues"
+  },
+  "homepage": "https://github.com/Async-Dot-Then/email-server#readme"
+}
